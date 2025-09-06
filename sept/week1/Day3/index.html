@@ -1,61 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- <style>
-        p{
-            background-color: blue;
-        }
-        h2{
-            color: red;
-        }
-    </style> -->
-
 </head>
+
 <body>
+    <h1>This is my second class</h1>
+    <!-- table in html -->
+    <table border="1">
+        <!-- table head -->
+        <thead>
+            <tr>
+                <th colspan="2">heading1</th>
+                <th>heading2</th>
+                <th>heading3</th>
+            </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+            <tr>
+                <td rowspan="2">item1</td>
+                <td>item2</td>
+                <td>item3</td>
+            </tr>
+            <tr>
+                <td>item4</td>
+                <td>item5</td>
+                <td>item6</td>
+            </tr>
+            <tr>
+                <td>item7</td>
+                <td>item8</td>
+                <td>item9</td>
+            </tr>
+
+        </tbody>
+
+        <!-- Table footer -->
+        <tfoot>
+            <tr>
+                <td>item10</td>
+                <td>item11</td>
+                <td>item12</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Anchor tag -->
+    <a href="./images/catimage.jpg" target="_blank" download>go to cat image</a>
+
+    <!-- to add images in the webpage -->
+    <img src="./images/catimage.jpg" alt="cat image">
+
+    <!-- video -->
+    <!-- <video src="./video/best fielding in cricket ---- _cricket _shorts(360P).mp4" muted controls  loop></video> -->
+    <!-- audio -->
+    <!-- <audio src=""></audio> -->
+
+    <!-- form  -->
+    <form>
+
+        <fieldset>
+            <legend>Profile data</legend>
+            <label for="">Name</label>
+            <input type="text">
+            <label for="">Age</label>
+            <input type="number">
+            <input type="email">
+            <input type="password">
+            <input type="radio">
+            <input type="checkbox">
+            <input type="range">
+            <input type="search">
+            <input type="button" value="button">
+            <input type="reset">
+            <input type="date">
+            <input type="submit">
+            <input type="url">
+            <input type="file">
+            <textarea name="" id="" rows="20" cols="30"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>College data</legend>
+            <label for="">Name</label>
+            <input type="text">
+            <label for="">Age</label>
+            <input type="number">
+            <input type="email">
+            <input type="password">
+            <input type="radio">
+            <input type="checkbox">
+            <input type="range">
+            <input type="search">
+            <input type="button" value="button">
+            <input type="reset">
+            <input type="date">
+            <input type="submit">
+            <input type="url">
+            <input type="file">
+            <textarea name="" id="" rows="20" cols="30"></textarea>
+        </fieldset>
+
+    </form>
+
+    <!-- details -->
+
+    <details>
+        <summary>milk</summary>
+        <p>milk is good for health</p>
+    </details>
+    <details>
+        <summary>car</summary>
+        <p>car colour is red</p>
+    </details>
+
+
+
+    <!-- data list -->
+
+    <input type="search" list="list">
+
+    <datalist id="list">
+        <option value="India">India</option>
+        <option value="pak">pak</option>
+        <option value="china">china</option>
+        <option value="rusia">rusia</option>
+        <option value="Uk">Uk</option>
+    </datalist>
+
+
+    <!-- select tag -->
+
+    <select name="" id="">
+        <option value="India">India</option>
+        <option value="pak">pak</option>
+        <option value="china">china</option>
+        <option value="rusia">rusia</option>
+        <option value="Uk">Uk</option>
+    </select>
+
+
     
-    <!-- there are three ways to provide the css property
-       1.inline css
-       2.internal css
-       3.External css
-    -->
-
-
-    <!-- today we are going to learn css -->
-
-    <!-- this is the inline css -->
-     <!-- <h1 style="background-color: red;font-size: 40px;">this is the heading</h1> -->
-
-     <!-- Internal css -->
-
-     <!-- <p>this is my paragraph</p>
-     <h2>this is h2 element </h2> -->
-
-
-     <!-- this is external css -->
-      <!-- <h3>this is the h3 tag</h3>
-
-      <p id="paragraph">Lorem ipsum dolor sit amet.</p>
-
-      <p class="para">this is select by class name</p>
-      <h5>this is h5</h5>
-       
-      <h6>this is h6</h6> -->
-
-      <div id="parent">
-        <p>this is direct child</p>
-
-        <div>
-            <p>this indirect child</p>
-        </div>
-      </div>
-
-      <p>this is adjacent member</p>
-      <p>this is second adjacent member</p>
+    &lt; a &gt;  => anchor tag is used to ....
 </body>
+
 </html>
