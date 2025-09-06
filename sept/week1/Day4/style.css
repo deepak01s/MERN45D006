@@ -1,0 +1,83 @@
+
+
+/* selectors
+   1.Simple selector
+   2.comibinator selector
+   3.psuedo class selector
+   4.attribute selector
+*/
+
+/* simple selector
+   =>id selector
+   =>class name selector
+   =>tag name selector
+   =>group name selector
+   =>universal selector
+*/
+
+
+/* this is id selector */
+/* #paragraph{
+    background-color: aqua;
+} */
+
+/* class selector */
+/* .para{
+    background-color: cadetblue;
+} */
+
+/* tag name selector */
+/* h3{
+    background-color: blueviolet;
+}
+
+h3,h5,h6{
+    color: brown;
+    font-size: 10px;
+}
+
+*{
+    font-size: 60px;
+    font-family: monospace;
+} */
+
+
+/* prority order
+ id
+ class
+ tag 
+ group
+ universal
+
+*/
+
+
+/* combinator selector
+   =>descedent selector
+   =>direct child selector
+   =>adjacent sibling selector
+   =>general sibling selector
+
+*/
+
+/* all direct with indirect child */
+/* #parent p{
+    background-color: red;
+} */
+
+/* only direct child */
+
+/* #parent>p{
+    background-color: red;
+} */
+
+/* adjacent sibling selector */
+/* #parent+p{
+    background-color: blue;
+} */
+
+/* general sibling selector */
+
+#parent~p{
+    background-color: blue;
+}
