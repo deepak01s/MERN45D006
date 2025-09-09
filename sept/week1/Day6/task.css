@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  background: linear-gradient(135deg, #ff5f6d, #4facfe);
+}
+.container{
+    width: 350px;
+    background-color:white;
+    color: #1d1e1d;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    transition: transform 0.03s ease-in-out;
+    
+}
+.container:hover{
+    transform: scale(1.2);
+}
+.container h2{
+   font-size: 36px;
+   text-align: center;
+   margin-top: 50px;
+  margin-bottom: 30px;
+   
+}
+.container .login-all {
+    width: 270px;
+    padding: 8px;
+    border-radius: 10px;
+    background:white;
+    text-align: center;
+   
+    margin-left: 30px;
+
+    
+}
+.login-all input{
+    justify-content: center;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.remember-me {
+    margin: 10px 40px;
+    font-size: 14px;
+
+}
+.btn{
+   width: 270px;
+    padding: 8px;
+    border-radius: 10px;
+    background:white;
+    text-align: center;
+    margin-left: 40px;
+    cursor: pointer;
+     border: 1px solid gray;
+     background-color: rgb(211, 27, 168);
+
+    
+}
+.btn:hover{
+    background-color: #ff5f6d;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+.more-login button{
+    
+    margin-left: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+     border: 1px solid gray;
+
+}
+.more-login button:hover{
+    color: blue;
+}

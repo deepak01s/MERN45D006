@@ -57,14 +57,14 @@ span{
 }
 
 #imageAdding{
-    width: 300px;
+    width: 500px;
     height: 300px;
     border: 2px solid #0000ff;
-    background-image: url("https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoJtOn5gyW81kWToellszzxWObkGXQQL8m-w&s");
     background-size: cover;
 }
 
-/* box medeling */
+/* box modeling */
 
 #boxModel{
     width: 100px;

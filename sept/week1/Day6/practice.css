@@ -1,0 +1,64 @@
+nav{
+    width:100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    box-shadow: 4px 6px 16 px 12px black;
+   
+
+}
+.logo{
+    width: 40%;
+
+}
+.logo p span{
+    color: orange;
+}
+.nav_list{
+    width: 50%;
+
+}
+.nav_list ul{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+}
+.nav_list ul li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+  .login{
+    width: 350px;
+    border: 3px solid blue;
+    padding: 5px;
+    margin: auto;
+    margin-top: 100px;
+    border-top-right-radius: 10px;
+  }
+  form{
+    padding: 5px;
+
+  }
+  form .login-gr{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+  }
+  form .login-gr{
+    font-size: 20px;
+    color: red;
+
+  }
+  form .login-gr input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: -1px -1px 5px 1 px blue;
+    
+  }
+
+  
+ 
