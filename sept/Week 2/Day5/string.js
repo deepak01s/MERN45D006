@@ -28,13 +28,13 @@ console.log("young")
 
 console.log(age<18 ? (age>60?"old":"adult"):"not adult")
 
-const number=prompt("Enter a number")
+// const number=prompt("Enter a number")
 
-if(number%5===0){
-    console.log("this number is divisible by 5")
-}else{
-    console.log("not divisible")
-}
+// if(number%5===0){
+//     console.log("this number is divisible by 5")
+// }else{
+//     console.log("not divisible")
+// }
 
 let stScore=75;
 
@@ -70,4 +70,27 @@ let v=0
 do{
 console.log("Qlith Innovation")
 v++
-}while(v<=5) 
+}while(v<=5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
