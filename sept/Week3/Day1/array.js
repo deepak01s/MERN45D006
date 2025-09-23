@@ -10,14 +10,13 @@
 // console.log(averagemark);
 
 
-let arr=["Bloomberg", "Microsoft", "uber", "Google","IBM","Netflix"]
-console.log(arr);
-arr.shift();
-console.log(arr);
-arr.splice(1,1,"ola");
-console.log(arr);
-arr.push("Amazon");
-console.log(arr)
+// let arr=["Bloomberg", "Microsoft", "uber", "Google","IBM","Netflix"]
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+// arr.splice(1,1,"ola");
+//  arr.push("Amazon");
+// console.log(arr) 
 
 // fuction
 // fuction declaration
@@ -26,8 +25,23 @@ console.log(arr)
 // }
 // printsomthing();
 
-let printsomthing =function(a){
-    console.log("printing",a);
+// let printsomthing =function(a,b){
+//     console.log("printing", a+b);
 
-}
-printsomthing(10);
+// }
+// printsomthing("10+20");
+
+let arr=["Bloomberg", "Microsoft", "uber", "Google","IBM","Netflix"]
+console.log(arr);
+arr.shift();
+console.log(arr);
+arr.splice(1,1,"Ola")
+console.log(arr);
+arr.unshift("Amazon")
+console.log(arr);
+
+let arr1=["Bloomberg", "Microsoft", "uber", "Google","IBM","Netflix"]
+console.log(arr1);
+console.log(arr1.indexOf("uber"));
+
+

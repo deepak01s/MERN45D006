@@ -1,6 +1,6 @@
 nav{
     width: 100vw;
-    /* background-color: blue; */
+    background-color: blue;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ form{
 }
 form .login-gr input{
     padding: 12px;
-    /* background-color: brown; */
+    background-color: brown;
     border-radius: 10px;
     box-shadow: -1px -1px 5px 1px blue
     
