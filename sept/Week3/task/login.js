@@ -10,8 +10,8 @@ loginForm.addEventListener("submit", (e) => {
 
    const validUser = users.find(user=> user.email === email.trim() && user.password === password.trim());
     if (validUser) {
-        alert(`Login Successful ✅ Welcome, ${validUser.name}`);
+        alert(`Login Successful  Welcome, ${validUser.name}`);
     } else {
-        alert("Invalid Email or Password ❌");
+        alert("Invalid Email or Password ");
     }
 });
