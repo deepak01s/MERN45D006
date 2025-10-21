@@ -2,7 +2,7 @@ const validation = (req,res,next)=>{
     console.log("Validation Middleware Called..... ")
     const isValidation = true
     if (isValidation) {
-        console.log("Congratulation Validation successfull");
+        console.log("Congratulation Validation successful");
         next()
     } else {
         res.send("User is not valid")
