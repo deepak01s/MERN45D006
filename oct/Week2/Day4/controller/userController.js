@@ -1,5 +1,10 @@
 const User = require("../model/userModel")
 const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+
+
+// For Resister
+
 exports.Register = async (req, res) => {
     try {
         const { fullName, age, email, password } = req.body;
@@ -75,10 +80,23 @@ exports.login = async (req, res) => {
         }
         bcrypt.compare(password, existingUser.password, function (err, result) {
             if (result) {
-                return res.status(200).json({
-                    status: true,
-                    message: ("Login Success")
-                })
+
+
+
+              const token=  jwt.sign({ existingUser}, 'user_key', { expiresIn: '1h' });
+              if (!token) {
+            res.status(404).json({
+                status: false,
+                message: "something went wrong"
+            })
+        } else {
+            res.status(201).json({
+                status: true,
+                message: "login successfully",
+                existingUser,
+                token
+            })
+        }
             } else {
                 return res.status(500).json({
                     status: false,
@@ -102,7 +120,7 @@ exports.updateUser = async (req, res) => {
     try {
         const { id } = req.params;
 
-        if (id) {
+        if (!id) {
             return res.status(500).json({
                 status: false,
                 message: ("id must be required")
@@ -167,7 +185,7 @@ exports.deleteUser = async (req, res) => {
     }
 }
 
-// all get user
+// all Fetch user
 
 exports.getAllUsers = async (req, res) => {
     try {
